@@ -6,7 +6,6 @@ class AiPlayer extends Player {
 
   @override
   void makeMove(List<List<String>> board, int size) {
-    // Простая логика ИИ: случайный ход
     while (true) {
       int row = Random().nextInt(size);
       int col = Random().nextInt(size);
